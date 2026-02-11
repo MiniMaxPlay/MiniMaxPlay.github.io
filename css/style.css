@@ -116,19 +116,19 @@ body {
 }
 .main-container-1-2-text-h1 {
   font-family: Poppins-Regular;
-  font-size: 52px;
+  font-size: 3.25rem;
   line-height: 72px;
 }
 .main-container-1-2-text-h1-Poppins-Bold {
   font-family: Poppins-Bold;
-  font-size: 52px;
+  font-size: 3.25rem;
 }
 .main-container-1-2-text-p-main {
   width: 645px;
   height: 72px;
   margin-top: 15px;
   font-family: Poppins-Light;
-  font-size: 16px;
+  font-size: 1em;
   letter-spacing: 0.05em;
 }
 .main-container-1-2-text-p-price {
@@ -137,7 +137,7 @@ body {
   margin-top: 20px;
   color: #FE8B6F;
   font-family: Poppins-ExtraBold;
-  font-size: 28px;
+  font-size: 1.75rem;
 }
 .main-container-1-2-text-a-button {
   text-decoration: none;
@@ -150,7 +150,7 @@ body {
   align-items: center;
   justify-content: center;
   font-family: Poppins-Medium;
-  font-size: 16px;
+  font-size: 1em;
   color: #FFFFFF;
 }
 .main-container-1-2-img1 {
