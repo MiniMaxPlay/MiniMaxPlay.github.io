@@ -175,6 +175,80 @@ body {
   top: -50px;
   left: 97px;
 }
+.main-container-2 {
+  width: 1350px;
+  height: 867px;
+  justify-self: center;
+  margin-top: 234px;
+}
+.main-container-2-text {
+  width: 704px;
+  height: 116px;
+  justify-self: center;
+}
+.main-container-2-text-h1 {
+  width: 684px;
+  height: 63px;
+  justify-self: center;
+  font-family: Poppins-Regular;
+  font-size: 42px;
+}
+.main-container-2-text-h1-Poppins-Bold {
+  font-family: Poppins-Bold;
+}
+.main-container-2-text-p {
+  width: 704px;
+  height: 48px;
+  margin-top: 5px;
+  font-family: Poppins-Light;
+  font-size: 1rem;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+.main-container-2-img {
+  width: 1350px;
+  height: 601px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.main-container-2-img-card {
+  width: 430px;
+  height: 601px;
+  position: relative;
+  display: flex;
+}
+.main-container-2-img-card-rectangle {
+  width: 430px;
+  height: 418px;
+  top: 80px;
+  background: rgba(254, 139, 111, 0.1);
+  border-radius: 100px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  z-index: -1;
+}
+.main-container-2-img-card-rectangle-button {
+  width: 430px;
+  height: 102px;
+  margin-top: 316px;
+  background: rgba(254, 139, 111, 0.15);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 0px 100px 100px;
+}
+.main-container-2-img-card-rectangle-button-h1 {
+  height: 42px;
+  font-family: Poppins-Regular;
+  font-size: 28px;
+  justify-self: center;
+}
+.main-container-2-img-card-rectangle-button-h1-Poppins-Bold {
+  font-family: Poppins-Bold;
+}
+.main-container-2-img-card-img {
+  margin: auto;
+  margin-top: 0;
+}
 .main-additional-decoration1 {
   position: absolute;
   width: 603px;
