@@ -27,6 +27,10 @@
   font-family: "SemiBold";
   src: url(../fonts/Poppins-SemiBold.ttf);
 }
+@font-face {
+  font-family: ExtraLight;
+  src: url(../fonts/Poppins-ExtraLight.ttf);
+}
 body {
   width: 1920px;
   height: 6124px;
@@ -603,6 +607,81 @@ body {
 }
 .main-container-6-arrows:hover {
   cursor: pointer;
+}
+.main-news {
+  width: 1350px;
+  height: 110px;
+  margin-top: 120px;
+  justify-self: center;
+  display: flex;
+}
+.main-news-h1 {
+  width: 552px;
+  height: 110px;
+  font-family: Poppins-Regular;
+  font-size: 2.625rem;
+  line-height: 55px;
+}
+.main-news-h1-Poppins-Bold {
+  font-family: Poppins-Bold;
+  font-size: 1em;
+}
+.main-news-email {
+  width: 450px;
+  height: 64px;
+  margin: 33px 0 13px 130px;
+}
+.main-news-email-input {
+  width: 450px;
+  height: 29px;
+  font-family: ExtraLight;
+  font-size: 0.875em;
+  letter-spacing: 0.05em;
+  border: none;
+  border-bottom: 1px solid black;
+  padding-bottom: 3px;
+  transform: translateY(-4px);
+}
+.main-news-email-input:focus {
+  outline: none;
+}
+.main-news-email-agreement {
+  height: 20px;
+  margin-top: 12px;
+  display: flex;
+}
+.main-news-email-agreement-checkbox {
+  width: 20px;
+  height: 20px;
+}
+.main-news-email-agreement-p {
+  margin-left: 10px;
+  font-family: Poppins-Light;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+}
+.main-news-email-agreement-p-a {
+  color: black;
+}
+.main-news-email-subscribe {
+  width: 158px;
+  height: 54px;
+  margin: 28px 0 28px 60px;
+  background-color: #444444;
+  border-radius: 27px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.main-news-email-subscribe-img {
+  width: 12px;
+  height: 12px;
+}
+.main-news-email-subscribe-p {
+  font-family: Poppins-Medium;
+  font-size: 1rem;
+  margin-left: 10px;
+  color: #FFFFFF;
 }
 .main-additional-decoration1 {
   position: absolute;
