@@ -29,6 +29,11 @@ $spacing: 0.05em;
     src: url(../fonts/Poppins-Light.ttf);
 }
 
+@font-face {
+    font-family: "SemiBold";
+    src: url(../fonts/Poppins-SemiBold.ttf);
+}
+
 body{
     width: 1920px;
     height: 6124px;
@@ -586,6 +591,225 @@ body{
             display: flex;
             align-items: center;
             justify-content: center;
+        }
+    }
+
+    &-container-5{
+        width: 1350px;
+        height: 714px;
+
+        justify-self: center;
+
+        display: flex;
+
+        margin-top: 200px;
+
+        &-text{
+            width: 615px;
+            height: 540px;
+
+            margin-top: 80px;
+
+            &-h1{
+                width: 615px;
+                height: 110px;
+
+                font-family: Poppins-Regular;
+                font-size: 2.625rem;
+                line-height: 55px;
+
+                &-Poppins-Bold{
+                    font-family: Poppins-Bold;
+                    font-size: 1em;
+                }
+            }
+
+            &-p{
+                &-1{
+                    height: 96px;
+
+                    font-family: Poppins-Light;
+                    font-size: 1rem;
+                    margin-top: 5px;
+                    letter-spacing: $spacing;
+                }
+
+                &-2{
+                    height: 120px;
+
+                    font-family: Poppins-Light;
+                    font-size: 1rem;
+                    margin-top: 5px;
+                    letter-spacing: $spacing;
+                }
+
+                &-3{
+                    height: 120px;
+
+                    font-family: Poppins-Light;
+                    font-size: 1rem;
+                    margin-top: 5px;
+                    letter-spacing: $spacing;
+                }
+            }
+
+            &-a{
+                width: 161px;
+                height: 54px;
+
+                margin-top: 25px;
+
+                text-decoration: none;
+                font-family: Poppins-Medium;
+                font-size: 1rem;
+
+                border-radius: 27px;
+                background-color: #444444;
+                color: #FFFFFF;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        &-img{
+            margin-left: 60px;
+        }
+    }
+
+    &-container-6{
+        width: 1230px;
+        height: 646px;
+
+        margin-top: 186px;
+
+        justify-self: center;
+
+        &-text{
+            width: 704px;
+            height: 116px;
+            justify-self: center;
+
+            &-h1{
+                width: 504px;
+                height: 63px;
+
+                justify-self: center;
+                
+                font-family: Poppins-Regular;
+                font-size: 2.625rem; 
+
+                &-Poppins-Bold{
+                    font-family: Poppins-Bold;
+                    font-size: 1em;
+                }
+            }
+
+            &-p{
+                width: 704px;
+                height: 48px;
+
+                margin-top: 5px;
+
+                font-family: Poppins-Light;
+                font-size: 1rem;
+
+                letter-spacing: $spacing;
+
+                text-align: center;
+            }
+        }
+
+        &-card{
+            width: 1230px;
+            height: 380px;
+
+            margin-top: 50px;
+
+            display: flex;
+
+            justify-content: space-between;
+
+            &-content{
+                width: 600px;
+                height: 380px;
+
+                background: rgba(254, 139, 111, 0.1);
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+                border-radius: 60px;
+
+                &-info{
+                    height: 100px;
+
+                    margin: 45px 0 0 45px;
+
+                    display: flex;
+
+                    &-img{
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 30px;
+                    }
+
+                    &-name{
+                        height: 61px;
+
+                        margin: 20px 0 0 20px;
+
+                        &-h1{
+                            font-family: Poppins-Regular;
+                            font-size: 1.5rem;
+
+                            &-Poppins-Bold{
+                                font-family: Poppins-Bold;
+                                font-size: 1em;
+                            }
+                        }
+
+                        &-stars{
+                            width: 99px;
+                            height: 15px;
+
+                            margin-top: 10px;
+                        }
+                    }
+                }
+
+                &-text{
+                    width: 510px;
+                    height: 120px;
+
+                    margin: 25px 0 0 45px;
+
+                    font-family: Poppins-Light;
+                    font-size: 1rem;
+
+                    letter-spacing: $spacing;
+                }
+
+                &-occupation{
+                    margin: 15px 0 0 45px;
+
+                    font-family: SemiBold;
+                    font-size: 1.25rem;
+                }
+            }
+        }
+
+        &-arrows{
+            width: 130px;
+            height: 50px;
+
+            display: flex;
+            margin-top: 50px;
+            justify-self: center;
+
+            justify-content: space-between;
+
+            &:hover{
+                cursor: pointer;
+            }
         }
     }
 
