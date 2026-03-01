@@ -32,7 +32,7 @@
   src: url(../fonts/Poppins-ExtraLight.ttf);
 }
 body {
-  width: 1920px;
+  width: 100%;
   height: 6124px;
   font-size: 16px;
 }
@@ -704,6 +704,119 @@ body {
   position: absolute;
   top: 868px;
   left: 1788px;
+}
+
+.footer {
+  width: 100%;
+  height: 264px;
+  margin-top: 120px;
+  background-color: #444444;
+}
+.footer-container-1 {
+  width: 1350px;
+  height: 96px;
+  margin-top: 60px;
+  position: absolute;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+.footer-container-1-social-networks {
+  width: 236px;
+  height: 76px;
+}
+.footer-container-1-social-networks-link {
+  width: 180px;
+  height: 30px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-container-1-social-networks-link-links {
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #FE8B6F;
+  filter: drop-shadow(0px 0px 15px rgba(48, 48, 48, 0.15));
+  border-radius: 8px;
+}
+.footer-container-1-social-networks-link-links-img {
+  display: flex;
+  margin: auto;
+  color: #FFFFFF;
+  flex-wrap: wrap;
+}
+.footer-container-1-phone {
+  width: 217px;
+  height: 96px;
+  margin-left: 177px;
+}
+.footer-container-1-phone-h1 {
+  font-family: Poppins-Regular;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+}
+.footer-container-1-phone-h1-Poppins-Bold {
+  font-family: Poppins-Bold;
+  font-size: 1em;
+}
+.footer-container-1-phone-main {
+  margin-top: 20px;
+  display: flex;
+}
+.footer-container-1-phone-main-text {
+  width: 122px;
+  height: 46px;
+  margin-left: 15px;
+}
+.footer-container-1-phone-main-text-h1 {
+  font-family: Poppins-Bold;
+  font-size: 1rem;
+  color: #FFFFFF;
+}
+.footer-container-1-phone-main-text-p {
+  font-family: Poppins-Regular;
+  font-size: 0.875rem;
+  color: #FFFFFF;
+}
+.footer-container-1-email {
+  width: 235px;
+  height: 96px;
+  margin-left: 120px;
+}
+.footer-container-1-email-h1 {
+  font-family: Poppins-Regular;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+}
+.footer-container-1-email-h1-Poppins-Bold {
+  font-family: Poppins-Bold;
+  font-size: 1em;
+}
+.footer-container-1-email-main {
+  width: 235px;
+  height: 46px;
+  margin-top: 20px;
+  display: flex;
+}
+.footer-container-1-email-main-img {
+  width: 40px;
+  height: 40px;
+}
+.footer-container-1-email-main-text {
+  width: 180px;
+  height: 21px;
+  margin-left: 15px;
+}
+.footer-container-1-email-main-text-h1 {
+  font-family: Poppins-Bold;
+  font-size: 1rem;
+  color: #FFFFFF;
+}
+.footer-container-1-email-main-text-p {
+  font-family: Poppins-Regular;
+  font-size: 0.875rem;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */
