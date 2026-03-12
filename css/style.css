@@ -689,8 +689,10 @@ body {
 }
 .main-decoration-scroll {
   position: fixed;
+  filter: drop-shadow(0 2px 4px rgb(255, 255, 255));
   bottom: 140px;
   right: 60px;
+  z-index: 2;
 }
 
 .footer {

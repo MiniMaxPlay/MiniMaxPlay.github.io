@@ -934,8 +934,11 @@ body{
         &-scroll{
             position: fixed;
 
+            filter: drop-shadow(0 2px 4px rgba(255, 255, 255, 1));
             bottom: 140px;
             right: 60px;
+
+            z-index: 2;
         }
     }
 }
